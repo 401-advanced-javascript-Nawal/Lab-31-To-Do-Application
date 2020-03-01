@@ -1,0 +1,29 @@
+{
+  "name": "Lab-31-To-Do-Application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Nawal/Lab-31-To-Do-Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-Nawal/Lab-31-To-Do-Application/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-Nawal/Lab-31-To-Do-Application#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-hookstore": "^1.4.3",
+    "react-scripts": "^3.4.0"
+  }
+}
