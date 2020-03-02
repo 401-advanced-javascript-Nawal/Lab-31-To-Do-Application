@@ -6,7 +6,7 @@ import App from './app.js';
 function Entry(){
     return (
         <React.Fragment>
-            <App />
+            <App/>
         </React.Fragment>
     )
   

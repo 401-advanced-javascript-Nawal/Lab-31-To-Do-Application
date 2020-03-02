@@ -59,15 +59,17 @@ function HooksToDoList() {
     /****************************************************** Rendering ***********************************************/
     return (
         <section>
-            <form onSubmit={}>
-                <input onChange={}></input>
+            <form onSubmit={_addItem}>
+                <input onChange={_changeAssigned}></input>
             </form>
-            {
+            {/* {
                 items.map(item => {
                     <p key={item}>{item}</p>
                 })
-            }
+            } */}
         </section>
     )
 
 } // end of HooksToDoList function
+
+export default HooksToDoList;
