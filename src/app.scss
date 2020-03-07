@@ -1,0 +1,25 @@
+header , footer {
+    color: rgb(239, 242, 243);
+    text-align: center;
+    background-color: rgb(62, 123, 131);
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+    background-color: pink;
+    margin: 20px 20px;
+    font-weight: bolder;
+}
+
+.dif {
+    -webkit-appearance: none;
+    width: 20%;
+    height: 25px;
+    background: #eff1ee;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: pointer;
+}

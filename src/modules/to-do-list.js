@@ -4,51 +4,38 @@ import { useState, useEffect } from 'react';
 
 function HooksToDoList() {
 
-    // const [complete,setComplete] = useState(false);
-    // const [difficulty,setDifficulty] = useState(0);
-    // const updateCounters = () => {
-    //     let newStatus = !complete;
-    //     if(newStatus === false) {
-    //         newStatus = 'incomplete';
-    //     } else {
-    //         newStatus = 'complete';
-    //     }
-    //     setComplete(newStatus);
-
-    //     setDifficulty()
-    // }
-
+    const [difficulty,setDifficulty] = useState(0);
 
     // set status if complete or incomplete 
-    const [status, setStatus] = useState('complete');
+    // const [status, setStatus] = useState('complete');
 
     const [items, setItems] = useState([]);
     const [assignedTo, setAssignedTo] = useState('');
+    const [itemName,setItemName] = useState('');
 
     const _changeAssigned = (e) => {
         setAssignedTo(e.target.value);
     } // end of _changeAssigned
 
+    const _diff = (e) => {
+        setDifficulty(e.target.value);
+    }
     const _addItem = (e) => {
         e.preventDefault();
         e.target.reset();
         assignedTo && setItems([...items, assignedTo]);
     } // end of _addItem
-
-    // const _updateCounters = () => {
-    //     let newStatus = !status;
-    //     setStatus(newStatus);
-    // }
+    
     /****************************************************** Use Effect ***********************************************/
     // for each render 
-    // useEffect(() => {
-    //     console.log('Welcome @ To Do List  ');
-    // })
+    useEffect(() => {
+        console.log('Welcome @ To Do List  ');
+    })
 
-    // // for assignedTo 
-    // useEffect(() => {
-    //     console.log('assignedTo : ', assignedTo);
-    // }, [assignedTo]);
+    // for assignedTo 
+    useEffect(() => {
+        console.log('Item Name : ', items);
+    }, [items]);
 
     // for status 
     useEffect(() => {
@@ -63,6 +50,9 @@ function HooksToDoList() {
             <form onSubmit={_addItem}>
                 <p> Enter Item To Do List : 
                 <input onChange={_changeAssigned}></input> 
+                </p>
+                <p> Set Difficulty ( from 1 to 5 ) :
+                <input className="dif" type="range" min="1" max="5"></input>
                 </p>
             </form>
             {
