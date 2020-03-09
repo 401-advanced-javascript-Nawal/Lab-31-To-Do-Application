@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToDoList />  Renders correctly  1`] = `
+<section>
+  <form
+    onSubmit={[Function]}
+  >
+    <p>
+       Enter Item To Do List :
+      <input
+        onChange={[Function]}
+      />
+    </p>
+    <p>
+       Set Difficulty ( from 1 to 5 ) :
+      <input
+        className="dif"
+        max="5"
+        min="1"
+        type="range"
+      />
+    </p>
+  </form>
+  <p>
+     Items :
+  </p>
+</section>
+`;
