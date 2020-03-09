@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Lab-31-To-Do-Application/static/css/main.b61477b4.chunk.css",
+    "main.js": "/Lab-31-To-Do-Application/static/js/main.b4f0d92e.chunk.js",
+    "main.js.map": "/Lab-31-To-Do-Application/static/js/main.b4f0d92e.chunk.js.map",
+    "runtime-main.js": "/Lab-31-To-Do-Application/static/js/runtime-main.4c581e88.js",
+    "runtime-main.js.map": "/Lab-31-To-Do-Application/static/js/runtime-main.4c581e88.js.map",
+    "static/js/2.52fedc9d.chunk.js": "/Lab-31-To-Do-Application/static/js/2.52fedc9d.chunk.js",
+    "static/js/2.52fedc9d.chunk.js.map": "/Lab-31-To-Do-Application/static/js/2.52fedc9d.chunk.js.map",
+    "index.html": "/Lab-31-To-Do-Application/index.html",
+    "precache-manifest.422e29076fc672f1a62a010fd6fcf1d0.js": "/Lab-31-To-Do-Application/precache-manifest.422e29076fc672f1a62a010fd6fcf1d0.js",
+    "service-worker.js": "/Lab-31-To-Do-Application/service-worker.js",
+    "static/css/main.b61477b4.chunk.css.map": "/Lab-31-To-Do-Application/static/css/main.b61477b4.chunk.css.map",
+    "static/js/2.52fedc9d.chunk.js.LICENSE.txt": "/Lab-31-To-Do-Application/static/js/2.52fedc9d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c581e88.js",
+    "static/js/2.52fedc9d.chunk.js",
+    "static/css/main.b61477b4.chunk.css",
+    "static/js/main.b4f0d92e.chunk.js"
+  ]
+}
