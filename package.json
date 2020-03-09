@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-Nawal/Lab-31-To-Do-Application/issues"
   },
-  "homepage": "https://github.com/401-advanced-javascript-Nawal/Lab-31-To-Do-Application",
+  "homepage": "https://Nsuliman.github.io/Lab-31-To-Do-Application",
   "dependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
